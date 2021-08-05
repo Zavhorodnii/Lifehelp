@@ -1,0 +1,92 @@
+/*
+Theme Name: LifeHelp Co
+Text Domain: theme_tlifehelp_co
+Version: 0.1
+Description: Theme for lifehelp.co
+Author: Lyohha
+
+*/
+
+.bread-crumbs__link {
+  transition: all 0.4s;
+}
+
+.title-error {
+  font-size: 246px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 300px;
+}
+
+.mar-50 {
+  margin-top: 50px;
+}
+
+.juc-center {
+  justify-content: center;
+}
+
+.btn-error {
+  display: block;
+  max-width: fit-content;
+  color: #235773;
+  text-transform: uppercase;
+  border: 1px solid #235773;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 9px 15px;
+  border-radius: 3px;
+}
+
+.bread-crumbs {
+  margin-top: 20px;
+  max-width: 986px;
+  margin: 0 auto;
+}
+
+.bread-crumbs_lisp {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.bread-crumbs_lisp span {
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.bread-crumbs__link {
+  font-size: 12px;
+  padding: 0 10px;
+  position: relative;
+  color: #4F4F4F;
+}
+
+.bread-crumbs__link:hover {
+  color: #2F80ED;
+}
+
+.bread-crumbs__link.active {
+  color: #2F80ED;
+}
+
+.bread-crumbs__link:before {
+  content: '/';
+  color: #444;
+  position: absolute;
+  right: -3px;
+  top: -4px;
+  font-size: 16px;
+}
+
+.bread-crumbs_lisp li:first-child a {
+  padding-left: 0;
+}
+
+.max-815px {
+  max-width: 815px;
+}
